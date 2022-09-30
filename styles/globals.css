@@ -1,3 +1,5 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
 html,
 body {
   padding: 0;
@@ -6,21 +8,113 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+.container-coms{
+  width: 95%;
+  margin: 0 auto;
+}
+
+.bg-alert{
+  background-color: #f542e3;
+  border-radius: 35px;
+  padding: 7px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+.nav-mid-contaner{
+  width: 40%;
+  margin: 0 auto;
+}
+.nav-last-contaner{
+  width: 15%;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.box-user{
+  border: 3px solid #f542e3;
+  border-radius: 35px;
+  height: 50px;
+  Width: 50px;
+  overflow: hidden;
+  position: relative;
 }
+.user-img{
+  width: 50px;
+  width: 500;
+  border-radius: 40px;
+  overflow: hidden;
+  position: absolute;
+}
+.btn-msg{
+  background-color: none;
+  color: #f542e3;
+  border: none;
+}
+
+ .link-nav{
+  color: rgb(82, 82, 82);
+  cursor: pointer;
+  width: 100%;
+  transition: 0.1s;
+  display: flex;
+  justify-content: center;
+}
+
+.link-nav:hover{
+  color: #f542e3;
+  border-bottom: 2px solid #f542e3;
+}
+
+.link-nav:focus{
+  color: #f542e3;
+  border-bottom: 2px solid #f542e3;
+}
+
+.link-nav:active{
+  color: #f542e3;
+  border-bottom: 2px solid #f542e3;
+}
+
+.main-page{
+  background-color: rgb(247, 247, 247);
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.welcome-card{
+  margin-top: 15px;
+  box-shadow: 0 0 9px 0px #999999;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(56, 56, 56);
+}
+
+.story-container{
+  margin: 20px 0;
+}
+.story-section .col{
+  box-shadow: 0 0 9px 0px #999999;
+  border-radius: 5px;
+  margin: 3px !important;
+  height: 230px;
+}
+ .story-view{
+    background-color: rgb(160, 160, 160);
+ }
+
+ .story-box{
+  width: 50px;
+  height: 50px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(92, 92, 92);
+  border-radius: 50px;
+  margin-top: 10px;
+ }
+
+/* .create-story{
+  height: ;
+} */
